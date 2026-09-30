@@ -24,6 +24,7 @@ header {
 main {
     display: grid;
     grid-template-columns: 1fr 3fr;
+    gap: 20px;
 }
 
 .sidebar-links {
@@ -32,12 +33,14 @@ main {
 
 .sidebar-links li {
     list-style-type: none;
+    text-align: center;
 }
 
 .sidebar-links a{
     text-decoration: none;
     color:black;
 }
+
 
 .sidebar {
 
@@ -46,7 +49,7 @@ main {
     justify-content: center;
     flex-direction: column;
     border-right: 2px solid black;
-    margin-right: 20px;
+    padding-right: 20px;
 
 }
 
