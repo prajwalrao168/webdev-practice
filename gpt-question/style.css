@@ -40,8 +40,6 @@ main {
     text-decoration: none;
     color:black;
 }
-
-
 .sidebar {
 
     display: flex;
@@ -82,3 +80,30 @@ main {
     padding: 10px;
     margin-top: 20px;
 }
+
+.recent-entry:hover{
+
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+
+}
+
+.recent-entry img {
+    display:block;
+    padding: 2px;
+    border-bottom: 2px solid black;
+    max-width: 200px;
+}
+
+.game-footer{
+    display:flex;
+    justify-content: space-between;
+    padding-top: 5px;
+}
+
+.game-title{
+    font-weight: bold;
+    padding-top: 5px;
+    max-width: 200px;
+}
+
